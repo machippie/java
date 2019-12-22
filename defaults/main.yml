@@ -1,0 +1,7 @@
+# Standards: 0.1
+---
+# @var java_user:description: User to run user-specific commands
+# @var java_user:value: java_user | default(homebrew_user) | default(ansible_user_id)
+# java_user:
+
+...
