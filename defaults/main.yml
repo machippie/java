@@ -4,4 +4,7 @@
 # @var java_user:value: java_user | default(homebrew_user) | default(ansible_user_id)
 # java_user:
 
+# @var java_package:description: Package to install
+java_package: java
+
 ...
