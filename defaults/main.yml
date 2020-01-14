@@ -4,7 +4,9 @@
 # @var java_user:value: java_user | default(homebrew_user) | default(ansible_user_id)
 # java_user:
 
-# @var java_package:description: Package to install
-java_package: oracle-jdk
+# @var java_packages:description: Packages to install
+java_packages:
+  - adoptopenjdk
+  - homebrew/cask-versions/adoptopenjdk8
 
 ...
