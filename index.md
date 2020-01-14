@@ -1,14 +1,16 @@
 
 ## Default Variables
 
-### java_package
+### java_packages
 
-Package to install
+Packages to install
 
 #### Default value
 
 ```yaml
-java_package: oracle-jdk
+java_packages:
+  - adoptopenjdk
+  - homebrew/cask-versions/adoptopenjdk8
 ```
 
 ### java_user
