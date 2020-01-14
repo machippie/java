@@ -8,7 +8,7 @@ Package to install
 #### Default value
 
 ```yaml
-java_package: java
+java_package: oracle-jdk
 ```
 
 ### java_user
