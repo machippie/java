@@ -9,7 +9,6 @@ Packages to install
 
 ```yaml
 java_packages:
-  - adoptopenjdk
   - homebrew/cask-versions/adoptopenjdk8
 ```
 
