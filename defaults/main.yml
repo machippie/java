@@ -6,7 +6,6 @@
 
 # @var java_packages:description: Packages to install
 java_packages:
-  - adoptopenjdk
   - homebrew/cask-versions/adoptopenjdk8
 
 ...
